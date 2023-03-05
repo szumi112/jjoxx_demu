@@ -108,6 +108,19 @@ a {
   z-index: 5;
 }
 
+@media screen and (max-width: 555px) {
+  .header h3 {
+    margin-top: 33px !important;
+    padding-top: 25px !important;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .backgroundRocket {
+    height: 800px;
+  }
+}
+
 .header h1 {
   font-size: 4rem;
   margin: 0px 0 80px;
@@ -923,7 +936,7 @@ form textarea:focus {
 
 @media (max-width: 960px) {
   .didyou {
-    margin: 0 30px;
+    margin: 0px;
   }
 
   .builtFor {
@@ -969,6 +982,18 @@ form textarea:focus {
 
   .requestBox h1 {
     font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .featuredby {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 0 30px;
+  }
+  .featuredby a {
+    margin-top: 25px;
   }
 }
 
