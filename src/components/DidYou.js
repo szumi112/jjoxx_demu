@@ -1,24 +1,18 @@
-import React from 'react'
+import React from "react";
 
 export const DidYou = () => {
   return (
-    <div className='didyou'>
+    <div className="didyou">
+      <div className="didyouquote">
+        <h1>We know that trading can be tough</h1>
         <h2>
-            Did you ever miss a trade because you over looked a small detail? 
-            <br></br>
-            Did you ever rush into a trade because you thought you would make a lot of money?
-            <br></br>
-            Did you ever get into a trade and instantly regretted it?
+          ...and that's why we've made it{" "}
+          <span>our mission to give you the edge you deserve.</span> <br></br>
+          With our powerful tools and expert insights, you'll be able to make
+          smarter, more informed trading decisions and stay ahead of the
+          competition.
         </h2>
-        <h4>Well, unfortunately we did. <br></br> That's why we decided to dedicate ourselves to mastering the markets, 
-          and start over with
-            with...
-        </h4>
-        <h1>
-            The Power of Artificial Intelligence
-        </h1>
+      </div>
     </div>
-  )
-}
-
-
+  );
+};
